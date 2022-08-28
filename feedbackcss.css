@@ -1,0 +1,342 @@
+#headcontainer{
+
+    display: flex;
+
+    justify-content: space-between;
+
+
+    
+
+   background-color: #6CB4EE;
+
+width: auto;
+
+height: 70px;
+
+padding: 15px;
+
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+color: #FFFFFF;
+
+text-shadow: 1px 3px 4px #3b3a3a;
+
+font-size: 20px;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+
+z-index: 1;
+transition: 0.5s ;
+
+
+
+
+
+
+}
+
+#headcontainer:hover{
+
+    height: 80px;
+
+    transition: 0.5s;
+}
+
+
+button img{
+width: 30px;
+
+height: 30px;
+
+}
+
+button {
+
+   background-color: transparent;
+
+   border: 0px;
+
+   border-radius: 50%;
+
+   padding: 10px;
+
+   transition: 0.5s;
+}
+
+
+button:hover{
+
+    margin-bottom: 15px;
+
+    cursor:pointer;
+
+   opacity: 0.5;
+
+   border-radius: 50%;
+    
+   transition: 0.5s;
+
+}
+
+body{
+
+   margin: auto;
+
+   padding-bottom: 150px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    text-decoration: none;
+
+    background-color: rgb(221, 219, 219);
+
+    text-shadow: 1px 3px 4px #3b3a3a;
+
+    height: 1000px;
+
+}
+
+.header-left{
+
+    display: flex;
+
+    justify-content: left;
+
+    align-items: center;
+
+    margin: 20px;
+
+    padding: 5px;
+
+    transition: 0.5s;
+
+
+
+
+}
+
+.header-left:hover{
+
+    margin-top: 5px;
+
+   
+
+    transition: 0.5s;
+}
+
+.header-left img{
+
+    width: 80px;
+
+    height: 80px;
+
+    transition: 0.5s;
+}
+
+.header-right{
+
+    display: flex;
+
+    justify-content: right;
+
+    align-items: center;
+}
+
+.header-center{
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    padding: 5px;
+
+    margin-right: 50px;
+
+    transition: 0.5s;
+
+}
+
+a{
+
+    color: black;
+
+    margin: 15px;
+
+    text-decoration: none;
+
+    transition: 0.5s;
+
+}
+
+a:hover{
+
+  margin-top: 5px;
+
+  padding: 5px;
+ 
+  transition: 0.5s;
+}
+.feedback-textbox{
+
+    display: flex;
+
+    justify-content: center;
+
+    transition: 0.5s;
+
+ background-color: #6cb4ee ;
+
+ width: 1000px;
+
+ height: 850px ;
+
+ margin: auto;
+
+ margin-top: 200px;
+
+ margin-bottom: 300px;
+
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+ padding: 1%;
+
+ border-radius: 15px;
+}
+
+#inputcontainer{
+
+   margin-top: 50px;
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    flex-direction: column ;
+}
+
+#inputcontainer button{
+
+display: flex;
+
+justify-content: center;
+
+margin-left: 15vh;
+
+margin-top: 50px;
+
+background-color:#518fc2;
+
+border-radius: 15px;
+
+}
+
+
+.name-email{
+ display: flex;
+
+ justify-content: center;
+
+ margin-left: 55px;
+
+width: 300px;
+height: 20px;
+
+border-radius: 15px;
+
+transition: 0.5s;
+
+border: none;
+
+background-color: #9ebfdf;
+
+color: rgb(0, 0, 0);
+
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+.name-email:hover{
+
+transition: 0.5s;
+    width: 305px;
+    height: 25px;
+    border: none;
+
+    display:block;
+
+    padding:  0.4cm;
+
+    
+
+}
+
+
+#feedbackinput{
+
+  height: 250px;
+
+  text-align: start;
+
+  flex-wrap: wrap;
+
+  flex-direction: row;
+
+ 
+  padding:  0.4cm;
+
+
+
+}
+
+body{
+
+
+    background-color: #eae8ec;
+
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%23234560' fill-opacity='0.79' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E");
+
+
+}
+
+#inputcontainer h1{
+
+display: flex ;
+
+justify-content: center;
+
+font-weight: bold;
+
+
+
+
+
+}
+
+#inputcontainer h3{
+
+    display: flex ;
+    
+    justify-content: center;
+    
+    font-weight: bold;
+    
+    
+    
+    
+    
+    }
+    
+
+
+#size{
+
+    width: 450px;
+}
+
+

@@ -173,20 +173,7 @@ body{
 }
 
 
-#site-container1{
 
-display: flex;
-
-flex-wrap: wrap;
-
-flex-direction: row;
-
-padding-top:150px;
-
-margin-left:350px;
-    
-
-}
 
 
 .dropbtn {
@@ -269,6 +256,23 @@ margin-left:350px;
   
 
   }
+
+
+
+  #site-container1{
+
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    flex-direction: row;
+    
+    padding-top:150px;
+    
+    margin-left:350px;
+        
+    
+    }
 
   .classh1{
 
@@ -501,9 +505,9 @@ margin-top: 250px;
 
  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-font-style: none;
+ 
 
-font-family: 'DynaPuff', cursive;
+ font-family: 'DynaPuff', cursive;
 
 }
 
@@ -513,6 +517,158 @@ font-family: 'DynaPuff', cursive;
 
   transition: 0.5s;
 
+  
+
 
 
 }
+
+#auction{
+
+display: flex;
+
+justify-content: space-between;
+
+
+
+margin-top: 150px;
+
+padding: 15px;
+
+}
+
+#auctionpic{
+
+margin-top: px;
+
+}
+
+#auctiontext{
+
+margin-left: 15px;
+
+}
+
+#auctionbutton{
+
+margin-top: 250px;
+
+margin-right: 250px;
+
+height: 30px;
+
+padding: 5px;
+
+align-items: center;
+
+justify-content: center;
+
+border-radius: 15px;
+
+width: 150px;
+
+background-color: #FB8500 ;
+
+transition: 0.5s;
+
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+border: 2px solid black;
+
+
+font-family: 'DynaPuff', cursive;
+
+
+}
+
+#auctionbutton:hover{
+
+
+  height: 35px;
+
+  transition: 0.5s;
+
+  
+
+}
+
+.footer{
+
+display: flex;
+
+
+
+align-items: center;
+
+bottom: 1;
+
+color: white;
+
+margin: 15px;
+
+padding: 30px;
+
+flex-direction: column;
+
+} 
+
+
+
+
+
+.texty{
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+ 
+
+  
+}
+
+.betw{
+
+  display: flex;
+
+  padding-left: 80px;
+
+  justify-content: space-around;
+
+  
+
+}
+
+.source{
+
+background-color: transparent;
+
+border: none;
+
+margin-top: 25px;
+
+transition: 0.5s;
+
+display: flex;
+
+}
+
+.source img {
+
+width: 20px;
+
+}
+
+.source:hover{
+
+margin-top: 15px;
+
+transition: 0.5s;
+
+
+}
+

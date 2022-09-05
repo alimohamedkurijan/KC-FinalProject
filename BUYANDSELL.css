@@ -73,7 +73,7 @@ height: 30px;
 
 body{
 
-   margin: auto;
+   /* margin: auto; */
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -274,6 +274,8 @@ body{
       justify-content: space-around;
     
       align-items: center;
+
+     
     
      
     
@@ -385,13 +387,12 @@ h1{
 
 h5{
 
-
-  font-family: 'DynaPuff', cursive;}
+}
+  /* font-family: 'DynaPuff', cursive;} */
 a{
 
 
-  font-family: 'DynaPuff', cursive;}
-
+}
 .images{
 
   display: flex;

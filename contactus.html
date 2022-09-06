@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
     <title>Contact us</title>
-
-    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="./pics/trade.png">
+    <link rel="stylesheet" href="./contact.css">
 </head>
 <body>
     
@@ -57,6 +57,7 @@
             
             <button  class="dropbtn"><img src="pics/menu-button-of-three-horizontal-lines.png" alt="menu"></button>
              <div class="dropdown-content">
+                <a href="loginpage.html"><img src="pics/user.png" alt=""  >Log in</a>
                <a href="ADDTRANS.html"><img src="pics/plus.png" alt=""> ADD </a>
                <a href="#"><img src="pics/contact-mail.png" alt=""> CONTACT US </a>
                <a href="https://www.instagram.com/"> <img src="pics/instagram.png" alt=""> INSTAGARAM </a>
@@ -72,7 +73,29 @@
 
 
 
-
+    <div class="container">
+        <form action="https://formsubmit.co/12aligo34letsgo@gmail.com" method="post">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">KUWAIT</option>
+            <option value="canada">KSA</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 
 
 

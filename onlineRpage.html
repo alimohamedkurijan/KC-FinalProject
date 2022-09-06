@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-signin-scope" content="profile email">
-    <meta name="google-signin-client_id" content="581189128881-1guvq3o0oeh2jdhb6h74bbn6gp38l658.apps.googleusercontent.com">
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./onlineRpage.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
 
-    <link rel="icon" href="./pics/trade.png">
 
-    <title>Document</title>
+
+    <title>Online</title>
 </head>
 <body>
-
     
 
     <div id="headcontainer" class="as">
@@ -73,30 +72,72 @@
 
 
 
-    <div id="login-form-wrap">
-        <h2>Login</h2>
-        <form id="login-form">
-          <p>
-          <input type="text" id="username" name="username" placeholder="Username" required><i class="validation"><span></span><span></span></i>
-          </p>
-          <p>
-          <input type="email" id="email" name="email" placeholder="Email Address" required><i class="validation"><span></span><span></span></i>
-          </p>
-          <p>
-         <a href="HOMEPAGE.html"> <input type="submit" id="login" value="Login"></a> 
-          </p>
-        </form>
-        <div class="g-signin2" data-onsuccess="onSignIn"></div>
-        <div id="create-account-wrap">
-          <p>Not a member? <a href="#">Create Account</a><p>
-        </div><!--create-account-wrap-->
-        
-      </div>
+
+
+<div class="product_container">
+
+<div class="product">
+
+
+<div class="imagee">
+
+<img src="pics/online-store.png" alt=" product"> 
+
+</div>
+
+<div class="boxyy">
+
+<div class="first-text">
+
+    <h5>Product : Your product Name <br><br>  price:1000kd</h5>
+
+</div>
+
+<div class="second-text">
+
+<h1>description Here</h1>
+
+
+</div>
+
+
+<div class="conta">
+
+<div >
+
+<a href=""  style="text-decoration: none;"><button class="end" > <img style=" width: 20px;" src="pics/phone.png" alt=""> Call</button></a>
+
+
+
+
+</div>
+
+<div >
+
+    <a href="" style="text-decoration: none;"><button class="end"> <img style=" width: 20px;" src="pics/whatsapp.png" alt=""> Whatsapp</button></a>
+
+</div>
+
+</div>
+
+
+
     
 </div>
 
 
+
 </div>
+
+
+
+</div>
+
+
+</div>
+
+
+
 
 
 
@@ -144,19 +185,10 @@
         <h2 style="color: black;">@COPYRIGHTS All rights reserved</h2>
     
     </footer>
-    
 
 
-<script>
 
-function onSignIn(googleUser) {
-  var profile = googleUser.getBasicProfile();
-  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-  console.log('Name: ' + profile.getName());
-  console.log('Image URL: ' + profile.getImageUrl());
-  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-}
-</script>
+
 
 </body>
 </html>

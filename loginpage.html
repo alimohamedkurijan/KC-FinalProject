@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
 
+
+    
+
     <link rel="icon" href="./pics/trade.png">
 
     <title>Document</title>
@@ -34,7 +37,7 @@
           <div  class="header-center" > 
             
     
-             <a class="as" href="HOMEPAGE.html">HOME</a>
+             <a class="as" href="Index.html">HOME</a>
     
              <a class="as" href="buy$sell.html">BUY & SELL</a>
             
@@ -59,7 +62,7 @@
              <div class="dropdown-content">
                 
              
-              <a href="loginpage.html"><img src="pics/user.png" alt=""  >Log in</a>
+              <a href="loginpage.html"><img src="pics/user.png" alt=""    > <h6  id="change-me">login</h6></a>
                <a href="ADDTRANS.html"><img src="pics/plus.png" alt=""> ADD </a>
                <a href="contactus.html"><img src="pics/contact-mail.png" alt=""> CONTACT US </a>
                <a href="https://www.instagram.com/"> <img src="pics/instagram.png" alt=""> INSTAGARAM </a>
@@ -83,7 +86,7 @@
           <input type="email" id="email" name="email" placeholder="Email Address" required><i class="validation"><span></span><span></span></i>
           </p>
           <p>
-         <a href="HOMEPAGE.html"> <input type="submit" id="login" value="Login"></a> 
+         <a href="Index.html"> <input type="submit" id="login" onclick=" log_in()" value="Login"></a> 
           </p>
         </form>
         <div class="g-signin2" data-onsuccess="onSignIn"></div>
@@ -156,6 +159,31 @@ function onSignIn(googleUser) {
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
 }
+
+
+
+function log_in(){
+
+
+   let thisone =  document.getElementById("username").value;
+
+
+
+
+   thisone = document.getElementById("change-me").innerHTML ;
+
+
+
+}
+
+
+
+
+
+
+
+
+
 </script>
 
 </body>

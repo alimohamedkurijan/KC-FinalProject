@@ -738,3 +738,8 @@ transition: 0.5s;
   from {transform: scale(0)}
   to {transform: scale(1)}
 }
+
+:-webkit-full-screen{
+
+  width: fit-content;
+}
